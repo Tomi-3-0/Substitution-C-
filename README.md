@@ -36,5 +36,5 @@ Or really doesn’t cooperate, providing no command-line argument at all? The pr
 
 Or doesn’t cooperate, providing too many command-line arguments? The program would also remind the user how to use the program:
 
-$ ./substitution 1 2 3
-Usage: ./substitution key
+    $ ./substitution 1 2 3
+    Usage: ./substitution key
