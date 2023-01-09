@@ -9,14 +9,13 @@ A message like HELLO, then, would be encrypted as FOLLE, replacing each of the l
 This program called substitution enables you to encrypt messages using a substitution cipher. As the user executes the program, they should decide, by providing a command-line argument, on what the key should be in the secret message provided at runtime.
 
 Here are a few examples of how the program might work. For example, if the user inputs a key of YTNSHKVEFXRBAUQZCLWDMIPGJO and a plaintext of HELLO:
-
-    
+   
     $ ./substitution YTNSHKVEFXRBAUQZCLWDMIPGJO
     plaintext:  HELLO
     ciphertext: EHBBQ
-    Here’s how the program might work if the user provides a key of VCHPRZGJNTLSKFBDQWAXEUYMOI and a plaintext of hello, world:
-    
 
+Here’s how the program might work if the user provides a key of VCHPRZGJNTLSKFBDQWAXEUYMOI and a plaintext of hello, world:
+    
     $ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
     plaintext:  hello, world
     ciphertext: jrssb, ybwsp
